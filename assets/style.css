@@ -55,6 +55,9 @@ a:hover {
 	width : 100%;
 	height:inherit;
 }
+.notVisible{
+	visibility: hidden;
+}
 
 /* Gestion format photo 
 
@@ -294,16 +297,24 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 footer {
+	background-color : #BEB45A;	
+	border-top : 2px solid #D8D3A8 ;
 	display : flex;
 	justify-content: space-around;
+	padding-top : 20px;
 }
 
 .pFooter{
 	font-size : 1em;	
 }
 
+.telFooter{
+	height : 10px;
+}
+
 .tel{
 	text-align: center;
+	margin-bottom: 0;
 }
 
 @media all and (max-width: 992px) {

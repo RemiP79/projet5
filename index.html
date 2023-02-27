@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Nina Carducci photographe</title>
-	<meta name="description" content="Devenir photographe était pour moi une évidence. Comme si j’y étais prédestinée. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.">
+	<meta name="description" content="Photographe passionnée, Nina CARDUCCI immortalisera les moments clés de votre vie, qu'ils soient personnels, professionnels ou culturels. ">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">	
@@ -166,19 +166,20 @@
 		</section>
 	</main>
 	<footer>
-			<div>
-				<span class="pFooter">Nina CARDUCCI</span><br>
-				<adress>
-				<span class="pFooter">68 avenue Alsace-Lorraine, 33200 Bordeaux</span>
-				</adress>
+			<div itemscope itemtype="http://schema.org/Corporation">
+				<h2 class="pFooter" itemprop="name">Nina CARDUCCI</h3>
+				<h3 class="pFooter notVisible" itemprop="founders">Nina CARDUCCI</h3><br>
 			</div>
-			<div>
-				<span class="pFooter">Du lundi au vendredi de 10h à 19h :</span><br>
-				<address class="tel">
-				<span class="pFooter">05 56 67 78 89</span>
-				</address>
+			
+			<div class="pFooter" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				<span class="pFooter" itemprop="streetAddress">68 avenue Alsace-Lorraine,</span>
+				<span class="pFooter" itemprop="postalCode">33200</span> 
+				<span class="pFooter" itemprop="addressLocality">Bordeaux</span>			
 			</div>
-		
+			<div id="telFooter">								
+				<p class="pFooter tel" itemprop="telephone">tel : 05 56 67 78 89</p>
+				<p class="pFooter">(Du lundi au vendredi de 10h à 19h)</p>						
+			</div>		
 	</footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
