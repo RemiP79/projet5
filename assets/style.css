@@ -44,6 +44,26 @@ body {
 	height : auto;
 }
 
+footer {
+	background-color : #BEB45A;	
+	border-top : 2px solid #D8D3A8 ;
+	display : flex;
+	justify-content: space-around;
+	padding-top : 20px;
+}
+
+.pFooter{
+	font-size : 1em;	
+}
+
+.telFooter{
+	height : 10px;
+}
+
+.tel{
+	text-align: center;
+	margin-bottom: 0;
+}
 #about {
 	display: flex;
 	background-color: #F6D2B8;
