@@ -35,7 +35,8 @@ body {
 
 .nav a {
 	text-decoration: none;
-	color: #000
+	color: #000;
+	font-size: 1.5em;
 }
 
 .social-link img {
@@ -89,7 +90,8 @@ body {
 }
 #about-me p {
 	width: 80%;
-	font-size: 14px;
+	font-size: 1em;
+	text-align : justify;
 }
 
 .activeButton {
@@ -111,6 +113,9 @@ body {
 .title{
 	text-align: center;
 	padding-block: 2em;
+	font-size:2em;
+	padding-bottom: 0.2em;
+
 }
 .gallery .nav {
 	justify-content: center;
@@ -162,6 +167,9 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2em;
+	text-align: justify;
+
 
 }
 .quote__author {
