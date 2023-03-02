@@ -111,7 +111,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  text-align: justify;
+  
 }
 
 
@@ -717,7 +717,7 @@ textarea {
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: 90%;
   }
 }
 .col-4 {
